@@ -1,0 +1,32 @@
+{
+    "name": "nealio82/plupload-bundle",
+    "description": "PLUpload integration for Symfony 2.1+",
+    "keywords": ["file upload", "PLUpload"],
+    "homepage": "https://github.com/nealio82/plupload-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "repositories":[
+        {
+            "type":"git",
+            "url":"git://github.com/nealio82/plupload-bundle.git"
+        }
+    ],
+
+    "authors": [
+        {
+            "name": "Neal Brooks",
+            "email": "nealio82@gmail.com",
+            "homepage": "http://www.nealio.co.uk"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "suggest": {
+        "symfony/twig-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Nealio\\Bundle\\PLUploadBundle": "" }
+    },
+    "target-dir": "Nealio/Bundle/PLUploadBundle"
+}
