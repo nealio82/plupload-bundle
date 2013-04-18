@@ -1,0 +1,26 @@
+{
+    "name": "nealio82/plupload-bundle",
+    "type": "symfony-bundle",
+    "description": "PlUpload Symfony2",
+    "keywords": ["plupload", "bundle"],
+    "homepage": "https://github.com/nealio82/plupload-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neal Brooks",
+            "email": "nealio82@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/finder": ">=2.1,<2.2-dev"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "Nealio82\\PlUploadBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Nealio82/PlUploadBundle"
+}
